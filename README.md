@@ -8,10 +8,10 @@ There are some subdirectories
   Here are some algorithms related to graphs
   ## Sort
   Here are almost all sorting algorithms
-     * [BubbleSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/BubbleSort.cpp)
-     * [InsertionSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/InsertionSort.cpp)
-     * [MergeSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/MergeSort.cpp)
-     * [QuickSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/QuickSort.cpp)
+   * [BubbleSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/BubbleSort.cpp)
+   * [InsertionSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/InsertionSort.cpp)
+   * [MergeSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/MergeSort.cpp)
+   * [QuickSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/QuickSort.cpp)
 
     
   

@@ -4,6 +4,7 @@
 #include <vector>
 #include <deque>
 #include <list>
+#include <array>
 
 /// Gets variable name (for beautiful print)
 #define GET_VARIABLE_NAME(Variable) (#Variable)
@@ -116,6 +117,13 @@ int main()
     quickSort(LIST_WITH_ITERATOR.begin(), LIST_WITH_ITERATOR.end());
     std::cout << GET_VARIABLE_NAME(LIST_WITH_ITERATOR) << ": ";
     print(LIST_WITH_ITERATOR);
+
+    // Usage with ARRAY
+    std::array<int, 13> ARRAY_WITH_ITERATOR{ 9, 10, 5, 3, 20, -7, 2, 19, 64, 21, 0, 8, 7 };
+    quickSort(ARRAY_WITH_ITERATOR.begin(), ARRAY_WITH_ITERATOR.end());
+    //quickSort(ARRAY_WITH_ITERATOR.begin(), ARRAY_WITH_ITERATOR.end(), std::greater<int>());
+    std::cout << GET_VARIABLE_NAME(ARRAY_WITH_ITERATOR) << ": ";
+    print(ARRAY_WITH_ITERATOR);
 
   
 

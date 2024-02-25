@@ -4,6 +4,7 @@
 #include <list>
 #include <algorithm>
 #include <forward_list>
+#include <array>
 
 /// Gets variable name (for beautiful print)
 #define GET_VARIABLE_NAME(Variable) (#Variable)
@@ -75,7 +76,7 @@ int main()
     std::cout << GET_VARIABLE_NAME(VEC_WITH_ITERATOR) << ": ";
     print(VEC_WITH_ITERATOR);
 
-    
+
 
     // Usage with DEQUE
     std::deque<int> DEQUE_WITH_ITERATOR{ 9, 10, 5, 3, 20, -7, 2, 19, 64, 21, 0, 8, 7 };
@@ -84,7 +85,7 @@ int main()
     std::cout << GET_VARIABLE_NAME(DEQUE_WITH_ITERATOR) << ": ";
     print(DEQUE_WITH_ITERATOR);
 
-    
+
 
     // Usage with LIST
     std::list<int> LIST_WITH_ITERATOR{ 9, 10, 5, 3, 20, -7, 2, 19, 64, 21, 0, 8, 7 };
@@ -92,4 +93,13 @@ int main()
     //mergeSort(LIST_WITH_ITERATOR.begin(), LIST_WITH_ITERATOR.end(), std::greater<int>());
     std::cout << GET_VARIABLE_NAME(LIST_WITH_ITERATOR) << ": ";
     print(LIST_WITH_ITERATOR);
+
+
+
+    // Usage with ARRAY
+    std::array<int, 13> ARRAY_WITH_ITERATOR{ 9, 10, 5, 3, 20, -7, 2, 19, 64, 21, 0, 8, 7 };
+    mergeSort(ARRAY_WITH_ITERATOR.begin(), ARRAY_WITH_ITERATOR.end());
+    //mergeSort(ARRAY_WITH_ITERATOR.begin(), ARRAY_WITH_ITERATOR.end(), std::greater<int>());
+    std::cout << GET_VARIABLE_NAME(ARRAY_WITH_ITERATOR) << ": ";
+    print(ARRAY_WITH_ITERATOR);
 }

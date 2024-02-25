@@ -125,6 +125,12 @@ int main()
     std::cout << GET_VARIABLE_NAME(ARRAY_WITH_ITERATOR) << ": ";
     print(ARRAY_WITH_ITERATOR);
 
+    std::array<int, 13> ARRAY_WITH_INDEX{ 9, 10, 5, 3, 20, -7, 2, 19, 64, 21, 0, 8, 7 };
+    quickSort(ARRAY_WITH_INDEX, 0, ARRAY_WITH_INDEX.size() - 1);
+    //quickSort(ARRAY_WITH_INDEX, 0, ARRAY_WITH_INDEX.size() - 1, std::greater<int>());
+    std::cout << GET_VARIABLE_NAME(ARRAY_WITH_INDEX) << ": ";
+    print(ARRAY_WITH_INDEX);
+
   
 
     return 0;

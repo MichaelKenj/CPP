@@ -6,15 +6,45 @@ This is a public repository where you can find useful codes written in C++
 <summary>Algorithms</summary>
   
   * Sort 
+    <details>
+    <summary>Bubble Sort</summary>
+    
     * [BubbleSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/BubbleSort.cpp)
+    </details>
+
+    <details>
+    <summary>Insertion Sort</summary>
+
     * [InsertionSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/InsertionSort.cpp)
+    </details>
+
+    
+    <details>
+    <summary>Merge Sort</summary>
+
     * [MergeSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/MergeSort.cpp)
+    </details>
+
+
+    <details>
+    <summary>Quick Sort</summary>
+    
     * [QuickSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/QuickSort.cpp)
+    </details>
+
+
+    
+    
 
   * Graphs
-
+    * DFS
+    * BFS
   * Searching
-
+    * Binary Search (Binary Search Tree)
+    * Binary Search (STL)
+    * Interpolation Search (STL)
+    * Jump Search (STL)
+    * Linear Search (STL)
 </details>
 
 <details>

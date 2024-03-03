@@ -4,20 +4,28 @@ This is a public repository where you can find useful codes written in C++
 
 <details>
 <summary>Algorithms</summary>
-    <details>
-    <summary>Sort</summary>
+
+  <details>
+  <summary>Sort</summary>
     
   * [BubbleSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/BubbleSort.cpp)
   * [InsertionSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/InsertionSort.cpp)
   * [MergeSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/MergeSort.cpp)
   * [QuickSort](https://github.com/MichaelKenj/CPP/blob/master/Algorythms/Sort/QuickSort.cpp)
-    </details>
-    <details>
-    <summary>Searching</summary>
-    </details>
-    <details>
-    <summary>Graphs</summary>
-    </details>
+  </details>
+  
+  <details>
+  <summary>Searching</summary>
+  </details>
+  
+  <details>
+  <summary>Graphs</summary>
+  </details>
+
+</details>
+
+<details>
+<summary>Data Structures</summary>
 </details>
 
 <details>

@@ -1,6 +1,6 @@
 # CPP
 
-This is a public repository where you can find famous algorithms written in C++
+This is a public repository where you can find useful codes written in C++
 
 # USAGE
 There are some subdirectories
